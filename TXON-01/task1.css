@@ -1,0 +1,154 @@
+body,
+html {
+    font-family: 'Baloo Paaji 2', cursive;
+    background: url('mastwall.jpg');
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    height: 777.2px;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.left img {
+    width: 70px;
+}
+
+.left div {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.mid {
+    display: block;
+    width: 43%;
+    margin: 15px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 28px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Baloo Paaji 2', cursive;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 0px 5px;
+    padding: 5px 15px;
+}
+
+.cont {
+    width: 80%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 15px 15px rgba(152, 158, 217, 0.3);
+}
+
+.cont h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.cont p {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.btnabt {
+    margin: 0px 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Baloo Paaji 2', cursive;
+    border: 2px solid white;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.btnabt:hover {
+    background-color: aliceblue;
+    color: blue;
+    box-shadow: 0px 15px 15px rgba(152, 158, 217, 0.3);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 0px 10px 0px 0px;
+    width: 100%;
+}
+
+.end1 {
+    display: block;
+    background-color: rgba(67, 66, 66, 0.48);
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: -40px;
+}
+
+.end2 {
+    display: block;
+    color: aliceblue;
+    background-color: rgba(67, 66, 66, 0.48);
+    text-align: center;
+    position: relative;
+    bottom: -40px;
+}
+
+.end2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.end2 a:hover {
+    color: rgb(70, 114, 210);
+}
+
+.logo img {
+    display: inline;
+    width: 33px;
+    margin: 0px 5px;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+}
